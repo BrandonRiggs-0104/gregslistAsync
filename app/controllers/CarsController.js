@@ -25,7 +25,7 @@ function _showFormButton() {
 
 
 export class CarsController {
-  constructor () {
+  constructor() {
     console.log('cars controller loaded');
     this.getCars()
     this.drawCarForm()
